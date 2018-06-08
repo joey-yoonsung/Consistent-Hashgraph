@@ -1,6 +1,7 @@
 # Consistent-Hashgraph
 
-이 프로젝트는 Hashgraph 단점인 consistency 를 어느 시점에 판단해야할지 기준을 알 수 없다는 문제를 해결하기 위한 연구를 진행할 wiki 프로젝트이다.
+이 프로젝트는 Hashgraph 단점인 어느 시점과 어느 노드를 기준으로 consistency를 판단해야 할지 기준을 알 수 없다는 문제를 해결하기 위한 연구를 진행할 wiki 프로젝트이다.
+이 문제를 해결하면 기존에 eventually consistency 한 서비스 환경만 가정하고 이용했던 빠른 성능의 Hashgraph 를 신뢰성있는 실시간 서비스에도 활용할 수 있을 것으로 기대한다.
 
 기존의 BFT 알고리즘에설 primary 를 지정해서 합의하는 방식의 아이디어를 적용시켜서 consistency 를 보장하는 방법을 테스트 결과 중심으로 연구할 계획이다.
 
